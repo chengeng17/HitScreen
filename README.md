@@ -55,11 +55,11 @@ python main.py
 
 We provide three models for screening, including:
 
-- HitScreen(Ankh_large)
+- HitScreen(Ankh Large)
 - HitScreen(ESM-2 150M)
 - HitScreen(ProtT5)
 
-Along with the corresponding model weights for the versions without UniMol. If your screening dataset is very large, you can use only the GCN-based model for screening. The performance may slightly decrease, but processing time will be significantly reduced. Below are the results using the DEKOIS2.0 dataset:
+Along with the corresponding model weights for the versions without UniMol. If your screening dataset of molecules is very large, you can use the GCN-encoded version for screening. The performance may slightly decrease, but processing time will be significantly reduced. Below are the results using the DEKOIS2.0 dataset:
 
 | Model                     | EF1% with UniMol | EF1% without UniMol |
 | ------------------------- | ---------------- | ------------------- |
