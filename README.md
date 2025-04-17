@@ -79,8 +79,8 @@ python screening_11betaHSD1.py
 
 ### 4. Using the Provided Model Weights for Evaluation and Reproducing Benchmark Results
 
-We evaluated the models using the DUD-E and DEKOIS2.0 datasets. The UniProt-mapped versions of the datasets are available on Zenodo(https://zenodo.org/records/15233905). Protein embeddings and molecular embeddings are also available on Zenodo.
-
+We evaluated the models using the DUD-E and DEKOIS2.0 datasets. The UniProt-mapped versions of the datasets are available on Zenodo(https://zenodo.org/records/15233905).
+ss
 ### 5. System Requirements
 
 The source code was developed using Python 3.8 and PyTorch 1.7.1. The required Python dependencies are listed below:
