@@ -67,7 +67,7 @@ Along with the corresponding model weights for the versions without UniMol. If y
 | HitScreen(ProtT5)          | 14.754           | 11.791              |
 | HitScreen(ESM-2 150M)      | 14.907           | 11.944              |
 
-For an example of screening the 11betaHSD1 task, refer to the example cell in the `/drug_and_target_embedding` notebook. Protein embeddings and molecular embeddings are also available on Zenodo(https://zenodo.org/records/15233973).
+For an example of screening the 11betaHSD1 task, refer to the example cell in the `/drug_and_target_embedding` notebook. Protein embeddings and molecular embeddings are also available on Zenodo(https://zenodo.org/records/15234175).
 
 If you plan to use only the GCN model, modify the following parameters:
 
