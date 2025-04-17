@@ -41,7 +41,7 @@ The following pretrained models are supported for embeddings:
 
 ### 2. Training
 
-The original datasets are available on Zenodo(https://zenodo.org/records/15233831), which includes the preprocessed ChemBL 33 dataset as well as the augmented dataset. The data augmentation code is located in `./data_augmentation/data_augmentation.py`. To save processing time, we have also provided preprocessed embedding files for the training set used in the article on Zenodo.
+The original datasets are available on Zenodo(https://zenodo.org/records/15233831), which includes the preprocessed ChemBL 33 dataset as well as the augmented dataset. The data augmentation code is located in `./data_augmentation/data_augmentation.py`. 
 
 If you have new data, follow step 1 to preprocess and generate embeddings before proceeding with training.
 
@@ -67,7 +67,7 @@ Along with the corresponding model weights for the versions without UniMol. If y
 | HitScreen(ProtT5)          | 14.754           | 11.791              |
 | HitScreen(ESM-2 150M)      | 14.907           | 11.944              |
 
-For an example of screening the 11betaHSD1 task, refer to the example cell in the `/drug_and_target_embedding` notebook.
+For an example of screening the 11betaHSD1 task, refer to the example cell in the `/drug_and_target_embedding` notebook. Protein embeddings and molecular embeddings are also available on Zenodo.
 
 If you plan to use only the GCN model, modify the following parameters:
 
@@ -79,7 +79,7 @@ python screening_11betaHSD1.py
 
 ### 4. Using the Provided Model Weights for Evaluation and Reproducing Benchmark Results
 
-We evaluated the models using the DUD-E and DEKOIS2.0 datasets. The UniProt-mapped versions of the datasets are available on Zenodo (you can download the CSV files from Zenodo). Protein embeddings and molecular embeddings are also available on Zenodo.
+We evaluated the models using the DUD-E and DEKOIS2.0 datasets. The UniProt-mapped versions of the datasets are available on Zenodo(https://zenodo.org/records/15233905). Protein embeddings and molecular embeddings are also available on Zenodo.
 
 ### 5. System Requirements
 
