@@ -41,7 +41,7 @@ The following pretrained models are supported for embeddings:
 
 ### 2. Training
 
-The original datasets are provided in the `./data` directory, which includes the preprocessed ChemBL 33 dataset as well as the augmented dataset. The data augmentation code is located in `./data_augmentation/data_augmentation.py`. To save processing time, we have also provided preprocessed embedding files for the training set used in the article on Zenodo.
+The original datasets are available on Zenodo(https://zenodo.org/records/15233831), which includes the preprocessed ChemBL 33 dataset as well as the augmented dataset. The data augmentation code is located in `./data_augmentation/data_augmentation.py`. To save processing time, we have also provided preprocessed embedding files for the training set used in the article on Zenodo.
 
 If you have new data, follow step 1 to preprocess and generate embeddings before proceeding with training.
 
