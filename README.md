@@ -152,7 +152,7 @@ python screening_11betaHSD1.py \
 
 ---
 
-## 📞 Contact
+## 📧 Contact
 
 - **Email**: gengchen17@zju.edu.cn
 
