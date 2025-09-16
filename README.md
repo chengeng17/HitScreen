@@ -144,13 +144,6 @@ python screening_11betaHSD1.py \
 
 ---
 
-## 📋 Requirements
-
-- Python 3.8+
-- PyTorch 1.7.1+
-- CUDA 10.2+
-
----
 
 ## 📧 Contact
 
