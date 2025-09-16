@@ -79,13 +79,6 @@ Before training, prepare the embeddings for your training data using the script 
 ```bash
 python main.py
 ```
-
-### Screening
-
-```bash
-python screening_11betaHSD1.py
-```
-
 ---
 
 ## 📊 Supported Models
