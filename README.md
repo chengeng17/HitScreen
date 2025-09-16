@@ -15,17 +15,17 @@
 
 HitScreen is a deep learning-based drug-target interaction (DTI) prediction framework designed for drug virtual screening. The project combines:
 
-- 🧬 **Protein Language Models**: Support for multiple pre-trained models (Ankh, ESM-2, ProtT5, etc.)
+- **Protein Language Models**: Support for multiple pre-trained models (Ankh, ESM-2, ProtT5, etc.)
 - **Molecular Representation Learning**: Using Uni-Mol and GCN for molecular encoding
-- 🔄 **Data Augmentation**: Techniques to improve model generalization
-- ⚡ **Efficient Screening**: Support for rapid screening of large compound libraries
+- **Data Augmentation**: Techniques to improve model generalization
+- **Efficient Screening**: Support for rapid screening of large compound libraries
 
 ### ✨ Key Features
 
 - **High Accuracy**: Excellent performance on DUD-E and DEKOIS2.0 datasets
-- 🛠️ **Easy to Use**: Complete training and inference scripts provided
-- 🔧 **Extensible**: Support for multiple pre-trained models and custom datasets
-- 🚀 **Efficient**: GCN-encoded version significantly improves processing speed
+- **Easy to Use**: Complete training and inference scripts provided
+- **Extensible**: Support for multiple pre-trained models and custom datasets
+- **Efficient**: GCN-encoded version significantly improves processing speed
 
 ---
 
