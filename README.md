@@ -35,7 +35,7 @@ HitScreen is a deep learning-based drug-target interaction (DTI) prediction fram
 
 ---
 
-## �� Quick Start
+## ⚡ Quick Start
 
 ### Installation
 
@@ -81,7 +81,7 @@ python main.py
 ```
 ---
 
-## 📊 Supported Models
+## 💾 Supported Models
 
 The following pretrained models are supported for embeddings:
 
@@ -107,7 +107,7 @@ The following pretrained models are supported for embeddings:
 
 ---
 
-## �� Results
+## 📊 Results
 
 ![Results](result_DUD-E.png)
 
@@ -136,7 +136,7 @@ python screening_11betaHSD1.py \
 
 ---
 
-## �� Data
+##  📁 Data
 
 - **ChEMBL 33**: [Download](https://zenodo.org/records/15233831)
 - **DUD-E & DEKOIS2.0**: [Download](https://zenodo.org/records/15233905)
@@ -158,7 +158,7 @@ python screening_11betaHSD1.py \
 
 ---
 
-## �� Citation
+## 📝 Citation
 
 ```bibtex
 @article{doi:10.1021/acs.jcim.5c01753,
@@ -184,6 +184,3 @@ python screening_11betaHSD1.py \
 
 </div>
 
-**⭐ If this project helps you, please give us a star!**
-
-</div>
