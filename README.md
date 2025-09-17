@@ -47,7 +47,7 @@ pip install torch>=1.7.1 dgl>=0.7.1 dgllife>=0.2.8 numpy>=1.20.2 scikit-learn>=0
 
 ### Data Augmentation Code
 
-The data augmentation code is located at `./data/data_argument.py`. This script generates negative samples for training by replacing protein targets while keeping the same molecule structure.
+The data augmentation code is located at `./data/data_augmentation.py`. This script generates negative samples for training by replacing protein targets while keeping the same molecule structure.
 
 ### Prerequisites
 
