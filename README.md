@@ -1,4 +1,4 @@
-# 🧬 A Sequence-Based Drug Virtual Screening Approach Using Data Augmentation and Protein Language Models
+# 🧬 HitScreen: A Sequence-Based Drug Virtual Screening Approach Using Data Augmentation and Protein Language Models
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.7.1+-red.svg)](https://pytorch.org)
