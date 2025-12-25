@@ -17,10 +17,10 @@ parser.add_argument('--test_file', default="./data/11betaHSD1/11betaHSD1.csv", t
 parser.add_argument('--model_path', default="./model/Ankh_Large/Ankh_Large_model.pth", type=str, help="Path to the pre-trained model Ankh_Large*, Ankh_Large, without_Uni-Mol")
 
 # embedding
-parser.add_argument('--is_LigandGCN', type=bool, default=True, help="Whether to use GCN for extracting ligand features")
-parser.add_argument('--is_unimol_Ligand', type=bool, default=True, help="Whether to use unimol for extracting ligand features")
-parser.add_argument('--is_ProteinCNN', type=bool, default=False, help="Whether to use CNN for extracting protein features")
-parser.add_argument('--is_esm_Protein', type=bool, default=True, help="Whether to use ESM for extracting protein features")
+parser.add_argument('--is_LigandGCN', type=str, default='True', help="Whether to use GCN for extracting ligand features")
+parser.add_argument('--is_unimol_Ligand', type=str, default='True', help="Whether to use unimol for extracting ligand features")
+parser.add_argument('--is_ProteinCNN', type=str, default='False', help="Whether to use CNN for extracting protein features")
+parser.add_argument('--is_esm_Protein', type=str, default='True', help="Whether to use ESM for extracting protein features")
 parser.add_argument('--ligand_max_nodes', default=300, type=int, help="Maximum number of nodes for ligands")
 
 # Drug feature extractor
@@ -72,6 +72,11 @@ parser.add_argument('--decoder_binary', default=1, type=int, help="Binary settin
 
 
 args = parser.parse_args()
+
+args.is_LigandGCN = args.is_LigandGCN.lower() == 'true'
+args.is_unimol_Ligand = args.is_unimol_Ligand.lower() == 'true'
+args.is_ProteinCNN = args.is_ProteinCNN.lower() == 'true'
+args.is_esm_Protein = args.is_esm_Protein.lower() == 'true'
 
 # =========================
 # 2. Device Setup
