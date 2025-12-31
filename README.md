@@ -97,6 +97,8 @@ The following pretrained models are supported for embeddings:
 | [ESM-2 3B](https://www.science.org/doi/full/10.1126/science.ade2574) | "facebook/esm2_t36_3B_UR50D" |
 | [Uni-MOL](https://openreview.net/forum?id=6K2RM6wVqKu) | "dptech/Uni-Mol-Models" |
 
+It should be noted that for the Uni-mol model, the version selection is https://github.com/deepmodeling/Uni-Mol/releases/download/v0.1/mol_pre_no_h_220816.pt. The representation output is selected as (unimol_repr['atomic_reprs'])
+
 ### 🚀 Model Variants
 
 - **Ankh-Large**: Trained with removal of targets within the same class
